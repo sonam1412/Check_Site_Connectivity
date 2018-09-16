@@ -1,0 +1,19 @@
+{
+	"checks": {
+		"ping": [
+
+				{		
+				"id": "google",
+				"value": "google.com:443"
+				},
+				{
+				"id": "mysite",
+				"value": "mytest.test:443"
+				},
+				{
+				"id": "facebook",
+				"value": "facebook.com:443"
+				}
+		] 
+	}	
+}

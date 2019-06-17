@@ -5,7 +5,7 @@ node {
             steps {
                 echo 'Building..'
                 sh './myCheck.sh'
-                echo 'Build Complete'
+                echo 'Build is Complete'
             }
         }
  }

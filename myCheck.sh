@@ -50,7 +50,7 @@ do
 		echo "$Fetch_Status"
 	    
 		#ping $Fetch_Status > temp
-		ping $Fetch_Status
+		ping -c 10 $Fetch_Status
 	
 		if [ $? -eq 0 ]; then
 			echo "✔ ${Site_Name[$i]}"

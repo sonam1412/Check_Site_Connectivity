@@ -9,8 +9,8 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
-                sh 'chmod -R 777 ./myCheck.sh '
-                sh './myCheck.sh'
+                sh 'chmod -R 777 ./myCheck.sh'
+                sh './myCheck.sh Input.json'
                 echo 'Build is Complete'
             }
         }

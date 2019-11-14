@@ -49,7 +49,8 @@ do
 		Fetch_Status=$(echo ${Site_URL[$j]} | cut -d":" -f1)
 		echo "$Fetch_Status"
 	    
-		ping $Fetch_Status > temp
+		#ping $Fetch_Status > temp
+		ping $Fetch_Status
 	
 		if [ $? -eq 0 ]; then
 			echo "✔ ${Site_Name[$i]}"

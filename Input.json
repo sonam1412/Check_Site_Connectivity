@@ -4,15 +4,15 @@
 
 				{		
 				"id": "google",
-				"value": "google.com:443"
+				"value": "google.com"
 				},
 				{
 				"id": "mysite",
-				"value": "mytest.test:443"
+				"value": "mytest.test"
 				},
 				{
 				"id": "facebook",
-				"value": "facebook.com:443"
+				"value": "facebook.com"
 				}
 		] 
 	}	

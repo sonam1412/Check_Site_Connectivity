@@ -36,18 +36,18 @@ Site_Name=($(echo $File_Name | $jq -r '.checks.ping[].id'))
 Site_URL=($(echo $File_Name | $jq -r '.checks.ping[].value'))
 
 n=${#Site_Name[@]}
-#echo ${n}
+echo ${n}
 
 for (( i=0; i<n; i++ ))
 do 
-    #echo "Print Site Name:" ${Site_Name[$i]}
+    echo "Print Site Name:" ${Site_Name[$i]}
 	
 	for (( j=i; j<=i; j++ ))
 	do
-		#echo "Print Site URL: " ${Site_URL[$j]}
+		echo "Print Site URL: " ${Site_URL[$j]}
 		
 		Fetch_Status=$(echo ${Site_URL[$j]} | cut -d":" -f1)
-		#echo "$Fetch_Status"
+		echo "$Fetch_Status"
 	    
 		ping $Fetch_Status > temp
 	

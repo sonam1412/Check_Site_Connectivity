@@ -8,5 +8,6 @@ node {
                 echo 'Build is Complete'
             }
         }
- }
+   }
+}
       

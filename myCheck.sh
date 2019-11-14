@@ -9,7 +9,7 @@
 #==================================================================================================
 
 #this jq command is required to parse the json input file
-jq=./jq-win64.exe
+jq='./jq-win64.exe'
 
 Script_Name=$0
 argument=1

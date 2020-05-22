@@ -15,6 +15,12 @@ pipeline {
                 echo 'Build is Complete'
             }
         }
-   }
+        stage('Testing') {
+           steps {
+                echo 'Testing..'
+                sh 'cat Input.json'
+            }
+        }
+   }    
 }
       

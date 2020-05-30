@@ -7,9 +7,10 @@
 #author		 	 :Sonam Maheshwari
 #date            :09/16/2018
 #==================================================================================================
+#Add permissions for jq setup file
+chmod -R 777 ./jq-osx-amd64.dms
 
 #this jq command is required to parse the json input file
-#jq='./jq-win64.exe'
 jq=./jq-osx-amd64.dms
 
 Script_Name=$0
